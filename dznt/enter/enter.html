@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录-网易严选</title>
+    <link rel="stylesheet" href="enter.css"/>
+    <script src="jquery-1.12.4.js"></script>
+    <script src="header.js"></script>
+</head>
+<body>
+<header id="header">
+    <div class="inner">
+        <div class="hd-left"><a href="#">好的生活，没那么贵</a></div>
+        <div class="hd-right">
+            <ul>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">严选会员</a></li>
+                <li><a href="#">企业采购</a></li>
+                <li><a href="#" class="li-six">客户服务<span class="hd-icon-a" id="kefu"></span></a></li>
+                <li><a href="#" class="li-sen"><span class="hd-icon-b"></span>下载APP</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div id="fuwu" class="fuwu">
+    <ul>
+        <li>帮助中心</li>
+        <li>在线客服</li>
+        <li class="dian" id="dian">电话客服></li>
+        <li>商务合作</li>
+        <li>开放平台</li>
+    </ul>
+</div>
+<div class="num" id="num">
+    <h4>400-0368-163</h4>
+    <p>9:00-22:00</p>
+</div>
+<!--头部标题栏End-->
+
+<!--Logo部分Start-->
+<div class="logo">
+    <div class="inner">
+        <div class="logopic">
+            <img src="images/logo.gif">
+        </div>
+        <!--搜索-->
+        <div class="search">
+            <input type="text" class="ipt" value="多色双肩包">
+            <span class="Magnifier"></span><!--放大镜-->
+            <span class="bugCar"></span>
+            <span class="numPic">0</span>
+        </div>
+    </div>
+</div>
+<!--Logo部分End-->
+
+<!--nav导航栏  Start-->
+<div class="nav" id="nav">
+    <div class="inner">
+        <div class="shownav" id="shownav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">居家</a></li>
+                <li><a href="#">餐厨</a></li>
+                <li><a href="#">配件</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">电器</a></li>
+                <li><a href="#">洗护</a></li>
+                <li><a href="#">杂货</a></li>
+                <li><a href="#">饮食</a></li>
+                <li><a href="#">婴童</a></li>
+                <li><a href="#">志趣</a></li>
+                <li><a href="#">专题</a></li>
+                <li><a href="#">甄选家</a></li>
+            </ul>
+        </div>
+
+        <!--下拉导航栏-->
+        <!--居家nav-->
+        <div class="hidenav">
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-beizhen.png" alt=""></div>
+                        <div class="tit"><p>被枕</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-chuangpin.png" alt=""></div>
+                        <div class="tit"><p>床品套件</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-buyi.png" alt=""></div>
+                        <div class="tit"><p>布艺软装</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-shouna.png" alt=""></div>
+                        <div class="tit"><p>收纳</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-jiaju.png" alt=""></div>
+                        <div class="tit"><p>家具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-jiashi.png" alt=""></div>
+                        <div class="tit"><p>家饰</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-chongwu.png" alt=""></div>
+                        <div class="tit"><p>宠物</p></div>
+                    </li>
+                </ul>
+            </div>
+            <!--餐厨nav-->
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-beihu.png" alt=""></div>
+                        <div class="tit"><p>杯壶</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-guoju.png" alt=""></div>
+                        <div class="tit"><p>锅具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-canju.png" alt=""></div>
+                        <div class="tit"><p>餐具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongn.png" alt=""></div>
+                        <div class="tit"><p>功能厨具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-chaju.png" alt=""></div>
+                        <div class="tit"><p>茶具咖啡具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-qingjie.png" alt=""></div>
+                        <div class="tit"><p>清洁保鲜</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>刀剪砧板</p></div>
+                    </li>
+                </ul>
+            </div>
+            <!--配件nav-->
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xingli.png" alt=""></div>
+                        <div class="tit"><p>行李箱</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongnbao.png" alt=""></div>
+                        <div class="tit"><p>功能箱包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-shuang.png" alt=""></div>
+                        <div class="tit"><p>双肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>单肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nanxie.png" alt=""></div>
+                        <div class="tit"><p>男鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nvxie.png" alt=""></div>
+                        <div class="tit"><p>女鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xiepei.png" alt=""></div>
+                        <div class="tit"><p>鞋配</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-tuoxie.png" alt=""></div>
+                        <div class="tit"><p>拖鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-weijin.png" alt=""></div>
+                        <div class="tit"><p>围巾套件</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-peishi.png" alt=""></div>
+                        <div class="tit"><p>配饰</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-yanjing.png" alt=""></div>
+                        <div class="tit"><p>眼镜</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-beihu.png" alt=""></div>
+                        <div class="tit"><p>杯壶</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-guoju.png" alt=""></div>
+                        <div class="tit"><p>锅具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-canju.png" alt=""></div>
+                        <div class="tit"><p>餐具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongn.png" alt=""></div>
+                        <div class="tit"><p>功能厨具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-chaju.png" alt=""></div>
+                        <div class="tit"><p>茶具咖啡具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-qingjie.png" alt=""></div>
+                        <div class="tit"><p>清洁保鲜</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>刀剪砧板</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xingli.png" alt=""></div>
+                        <div class="tit"><p>行李箱</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongnbao.png" alt=""></div>
+                        <div class="tit"><p>功能箱包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-shuang.png" alt=""></div>
+                        <div class="tit"><p>双肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>单肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nanxie.png" alt=""></div>
+                        <div class="tit"><p>男鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nvxie.png" alt=""></div>
+                        <div class="tit"><p>女鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xiepei.png" alt=""></div>
+                        <div class="tit"><p>鞋配</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-tuoxie.png" alt=""></div>
+                        <div class="tit"><p>拖鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-weijin.png" alt=""></div>
+                        <div class="tit"><p>围巾套件</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-peishi.png" alt=""></div>
+                        <div class="tit"><p>配饰</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-yanjing.png" alt=""></div>
+                        <div class="tit"><p>眼镜</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-beihu.png" alt=""></div>
+                        <div class="tit"><p>杯壶</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-guoju.png" alt=""></div>
+                        <div class="tit"><p>锅具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-canju.png" alt=""></div>
+                        <div class="tit"><p>餐具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongn.png" alt=""></div>
+                        <div class="tit"><p>功能厨具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-chaju.png" alt=""></div>
+                        <div class="tit"><p>茶具咖啡具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-qingjie.png" alt=""></div>
+                        <div class="tit"><p>清洁保鲜</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>刀剪砧板</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xingli.png" alt=""></div>
+                        <div class="tit"><p>行李箱</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongnbao.png" alt=""></div>
+                        <div class="tit"><p>功能箱包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-shuang.png" alt=""></div>
+                        <div class="tit"><p>双肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>单肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nanxie.png" alt=""></div>
+                        <div class="tit"><p>男鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nvxie.png" alt=""></div>
+                        <div class="tit"><p>女鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xiepei.png" alt=""></div>
+                        <div class="tit"><p>鞋配</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-tuoxie.png" alt=""></div>
+                        <div class="tit"><p>拖鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-weijin.png" alt=""></div>
+                        <div class="tit"><p>围巾套件</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-peishi.png" alt=""></div>
+                        <div class="tit"><p>配饰</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-yanjing.png" alt=""></div>
+                        <div class="tit"><p>眼镜</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-beihu.png" alt=""></div>
+                        <div class="tit"><p>杯壶</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-guoju.png" alt=""></div>
+                        <div class="tit"><p>锅具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-canju.png" alt=""></div>
+                        <div class="tit"><p>餐具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongn.png" alt=""></div>
+                        <div class="tit"><p>功能厨具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-chaju.png" alt=""></div>
+                        <div class="tit"><p>茶具咖啡具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-qingjie.png" alt=""></div>
+                        <div class="tit"><p>清洁保鲜</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>刀剪砧板</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xingli.png" alt=""></div>
+                        <div class="tit"><p>行李箱</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongnbao.png" alt=""></div>
+                        <div class="tit"><p>功能箱包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-shuang.png" alt=""></div>
+                        <div class="tit"><p>双肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>单肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nanxie.png" alt=""></div>
+                        <div class="tit"><p>男鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nvxie.png" alt=""></div>
+                        <div class="tit"><p>女鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xiepei.png" alt=""></div>
+                        <div class="tit"><p>鞋配</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-tuoxie.png" alt=""></div>
+                        <div class="tit"><p>拖鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-weijin.png" alt=""></div>
+                        <div class="tit"><p>围巾套件</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-peishi.png" alt=""></div>
+                        <div class="tit"><p>配饰</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-yanjing.png" alt=""></div>
+                        <div class="tit"><p>眼镜</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-beihu.png" alt=""></div>
+                        <div class="tit"><p>杯壶</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-guoju.png" alt=""></div>
+                        <div class="tit"><p>锅具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-canju.png" alt=""></div>
+                        <div class="tit"><p>餐具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongn.png" alt=""></div>
+                        <div class="tit"><p>功能厨具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-chaju.png" alt=""></div>
+                        <div class="tit"><p>茶具咖啡具</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-qingjie.png" alt=""></div>
+                        <div class="tit"><p>清洁保鲜</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>刀剪砧板</p></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navButtom">
+                <ul>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xingli.png" alt=""></div>
+                        <div class="tit"><p>行李箱</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-gongnbao.png" alt=""></div>
+                        <div class="tit"><p>功能箱包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-shuang.png" alt=""></div>
+                        <div class="tit"><p>双肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-daojian.png" alt=""></div>
+                        <div class="tit"><p>单肩包</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nanxie.png" alt=""></div>
+                        <div class="tit"><p>男鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-nvxie.png" alt=""></div>
+                        <div class="tit"><p>女鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-xiepei.png" alt=""></div>
+                        <div class="tit"><p>鞋配</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-tuoxie.png" alt=""></div>
+                        <div class="tit"><p>拖鞋</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-weijin.png" alt=""></div>
+                        <div class="tit"><p>围巾套件</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-peishi.png" alt=""></div>
+                        <div class="tit"><p>配饰</p></div>
+                    </li>
+                    <li>
+                        <div class="navpic"><img src="images/nav-yanjing.png" alt=""></div>
+                        <div class="tit"><p>眼镜</p></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="m-bg">
+        <div class="box">
+            <div class="m-login">
+                <h3>网易账号登录</h3>
+
+                <form action="">
+                    <!--<div class =""></div>-->
+                    <div class="inputbox">
+                        <div class="u-logo">
+                            <img src="images/d6bd29fcf2096cb4c5d338e0fce13919.png" alt=""/>
+                        </div>
+                        <input type="text" placeholder="邮箱账号" class="u-input"/>
+                    </div>
+                    <div class="inputbox">
+                        <div class="u-logo">
+                            <img src="images/178e29b95f152a8aa6490f4f7032a8e8.png" alt=""/>
+                        </div>
+                        <input type="password" placeholder="输入密码" class="u-input"/>
+                    </div>
+                    <input type="submit" value="登录" class="l-input"/>
+                </form>
+                <div class="reset">
+                    <a class="forgetpwd" href="https://reg.163.com/naq/findPassword#/verifyAccount" target="_blank">忘记密码？</a>
+                    <a class="gologin" href="../login/login.html" target="_blank">去注册</a>
+                </div>
+                <div class="other">其他方式登录</div>
+                <div class="olist">
+                    <a class="weixin" target="_blank" href="https://open.weixin.qq.com/connect/qrconnect?appid=wxcd0ee4eb3c1c6ae2&redirect_uri=https%3A%2F%2Freg.163.com%2FouterLogin%2Foauth2%2Fweixin_kfpt_connect.do%3Furl%3Dhttps%253A%252F%252Fwebzj.reg.163.com%252Fwebapp%252Fres%252Fstatichtml%252Fthird.html%26url2%3Dhttps%253A%252F%252Fwebzj.reg.163.com%252Fwebapp%252Fres%252Fstatichtml%252Fthird.html%26product%3Dyanxuan_web%26urs_tg%3D13&response_type=code&scope=snsapi_login">
+                        <span></span>微信
+                    </a>
+                    <a class="qq" target="_blank" href="https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=101330628&redirect_uri=https%3A%2F%2Freg.163.com%2FouterLogin%2Foauth2%2Ftencent_connect.do%3Furl%3Dhttps%253A%252F%252Fwebzj.reg.163.com%252Fwebapp%252Fres%252Fstatichtml%252Fthird.html%26url2%3Dhttps%253A%252F%252Fwebzj.reg.163.com%252Fwebapp%252Fres%252Fstatichtml%252Fthird.html%26product%3Dyanxuan_web%26urs_tg%3D1&response_type=code&state=d150fd30d8303597f1588611173f5bd5&scope=get_user_info"> 
+                        <span></span>QQ
+                    </a>
+                    <a class="weibo" target="_blank" href="https://api.weibo.com/oauth2/authorize?client_id=881117822&redirect_uri=https%3A%2F%2Freg.163.com%2FouterLogin%2Foauth2%2Fsina_connect.do%3Furl%3Dhttps%253A%252F%252Fwebzj.reg.163.com%252Fwebapp%252Fres%252Fstatichtml%252Fthird.html%26url2%3Dhttps%253A%252F%252Fwebzj.reg.163.com%252Fwebapp%252Fres%252Fstatichtml%252Fthird.html%26product%3Dyanxuan_web%26urs_tg%3D3&response_type=code&forcelogin=true"> 
+                        <span></span>微博
+                    </a>
+                    <a class="email" target="_blank" href="https://open.qiye.163.com/a/oauth2/authorize?client_id=yanxuan&response_type=code&redirect_uri=http%3a%2f%2fcps.you.163.com%2ftrack%2fqiyemail%2fauth.do&state=http%3A%2F%2Fyou.163.com%2Fu%2Flogincps&url=https%3A%2F%2Fwebzj.reg.163.com%2Fwebapp%2Fres%2Fstatichtml%2Fthird.html&url2=https%3A%2F%2Fwebzj.reg.163.com%2Fwebapp%2Fres%2Fstatichtml%2Fthird.html"> 
+                        <span></span>网易企业邮箱
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部Start-->
+<div class="bottom ">
+    <div class="inner">
+        <ul>
+            <li>
+                <h4>客服电话</h4>
+                <p class="btp-fis">400-0368-163</p>
+                <p class="btp-last">9:00-22:00</p>
+                <input type="text" value="用户反馈">
+                <input type="text" value="在线客服">
+            </li>
+            <li>
+                <h4>何为严选</h4>
+                <p>网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</p>
+                <div>
+                    关注我们：
+                    <div class="shejiao">
+                        <div class="guanzhu"></div>
+                        <div class="u-weixin"></div>
+                        <div class="u-weibo"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h4>扫码下载严选APP</h4>
+                <img src="images/app.jpg" alt="">
+                <p>下载领1000元新人礼包</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--底部End-->
+
+<!--footer Start-->
+<div class="footer">
+    <div class="inner">
+        <div class="footer-top">
+            <img src="images/foot.png" alt="">
+        </div>
+        <div class="footer-btm">
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">售后服务</a></li>
+                <li><a href="#">配送与验收</a></li>
+                <li><a href="#">商务合作</a></li>
+                <li><a href="#">企业采购</a></li>
+                <li><a href="#">开放平台</a></li>
+                <li><a href="#">搜索推荐</a></li>
+                <li><a href="#">友情链接</a></li>
+            </ul>
+            <div class="gs">
+                <img src="images/gs.gif" alt="">
+            </div>
+            <p>网易公司版权所有 © 1997-2017 食品经营许可证：JY13301080111719</p>
+        </div>
+    </div>
+</div>
+<!--footer End-->
+</body>
+</html>
